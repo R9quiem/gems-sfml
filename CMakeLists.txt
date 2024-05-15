@@ -14,6 +14,9 @@ include_directories(include)
 
 set(SOURCES 
   src/main.cpp
+  src/Game.cpp
+  src/Board.cpp
+  src/Square.cpp
 )
 
 add_executable(Gems ${SOURCES})
